@@ -5,9 +5,9 @@ const port = process.env.SERVER_PORT || process.env.PORT || 8080;
 const UUID = process.env.UUID || 'f23a3818-d079-48d9-86eb-03ad5a531660'; //若需要改UUID，需要在config.json里改为一致
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.jaxmike.nyc.mn';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'fuzQ5TzxsAfYw7b97b';   // 没用哪吒，把这个参数空着
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.jaxmike.nyc.mn';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiN2QzZTQ2YjIzYzllYmM5ODQxYjI1MTkyN2I2NjA4NmMiLCJ0IjoiMzZkNTUyMWMtMGJjNS00OTNkLWIzNjMtMDkzOTIzMWY2Y2UwIiwicyI6IlpqRmlZamM0WVdJdE16WmtOeTAwWkRCaUxXRmlPVGt0WkRabU5UTmlPV1U0TnpoaiJ9';
+const NEZHA_KEY = process.env.NEZHA_KEY || '';   // 没用哪吒，把这个参数空着
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cho.apiauto.dpdns.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiODdiMWU1ZmVlYmMyZDgyMjdjNTQ2ZjNmZjg2ZmI1MjgiLCJ0IjoiZmQ2ZTBmODEtNzE1Ny00OWMwLThkMWEtMjMxMjRlZWVjNzgyIiwicyI6IlptUXhOREV4T0dNdE9UVm1aUzAwTldNMExXRm1abVF0WkRWaE4yRTBOVFV4WXpCaCJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo';
 
